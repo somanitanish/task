@@ -1,0 +1,36 @@
+ol,
+ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  padding: 13px;
+}
+#horBar {
+  margin: 11px;
+  font-family: Serif;
+  width: 1000px;
+}
+
+#horBar li {
+  display: block;
+  width: 117px;
+  float: left;
+  margin-left: 4px;
+  border: 2px double rgb(82, 20, 20);
+}
+
+#horBar a {
+  color: #006;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 4px;
+  display: block;
+}
+
+#horBar a:hover {
+  color: rgb(237, 124, 124);
+  background-color: #006;
+}

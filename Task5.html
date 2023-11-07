@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <h1>This is task 5</h1>
+    <h2 style="color: darkblue; text-align: center;">Registration Form</h2>
+    <div align="center">
+    <form>
+      <table border="1">
+        <tr>
+          <td><label for="firstname">First Name:</label></td>
+          <td><input type="text" id="firstname" name="firstname" size="15" /></td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Last Name:</label></td>
+          <td><input type="text" id="lastname" name="lastname" size="15" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="pass">Password:</label></td>
+          <td><input type="password" id="pass" name="pass" /></td>
+        </tr>
+        <tr>
+          <td><label for="repass">Re-enter Password:</label></td>
+          <td><input type="password" id="repass" name="repass" /></td>
+        </tr>
+        <tr>
+          <td><label>Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" value="Male" /> Male<br /><hr />
+            <input type="radio" name="gender" value="Female" /> Female<br /> <hr />
+            <input type="radio" name="gender" value="Other" /> Other<br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="age">Age:</label></td>
+          <td><input type="text" id="age" name="age" /></td>
+        </tr>
+        <tr>
+          <td><label>Phone Number:</label></td>
+          <td>
+            <input type="text" name="countrycode" value="+91" size="2" />
+            <input type="text" name="phone" size="10" /><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><textarea cols="40" rows="5" id="address" name="address"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="state">State:</label></td>
+          <td><input type="text" id="state" name="state" /></td>
+        </tr>
+        <tr>
+          <td><label for="country">Country:</label></td>
+          <td>
+            <select id="country" name="country">
+              <option>Choose your country</option>
+              <option value="India">India</option>
+              <option value="Japan">Japan</option>
+              <option value="America">America</option>
+              <option value="China">China</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Russia">Russia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Languages Known:</label></td>
+          <td>
+            <input type="checkbox" name="languages" value="English" /> English
+            <input type="checkbox" name="languages" value="Hindi" /> Hindi
+            <input type="checkbox" name="languages" value="Kannada" /> Kannada
+            <input type="checkbox" name="languages" value="Telugu" /> Telugu<br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" /> Hereby I declare all the given details are true <br /> <hr />
+            <div align="right">
+                Log in to <a href="https://www.ethnus.com" target="_blank">Ethnus</a> website
+              </div>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <input type="button" value="Register" />
+    </div>
+  </body>
+</html>
